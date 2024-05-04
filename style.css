@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Comic Sans", cursive;
+    height: 100vh;
+    background-image: radial-gradient(
+      rgb(255, 236, 169),
+      rgb(223, 141, 253),
+      rgb(208, 99, 255)
+    );
+    background-size: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container {
+    width: 500px;
+    background-color: rgb(117, 176, 236);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: rgb(255, 241, 148);
+    background: rgb(218, 138, 255);
+    border-bottom: 5px solid rgb(183, 108, 248);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 0 5px 0;
+  }
+  
+  select,
+  input,
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  #buttons {
+    display: flex;
+  }
+
+  #buttons button {
+    color: rgb(255, 250, 177);
+    background: rgb(144, 81, 168);
+    border: 0;
+    width: 50%;
+    font-size: 20px;
+    border-bottom: 5px solid rgb(106, 250, 255);
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+    position: relative;
+
+  }
+
+  #buttons button:active {
+    top: 2px;
+  }
+  
